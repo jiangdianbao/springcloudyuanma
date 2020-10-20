@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/springcloudeureka/springcloudeureka.iml" filepath="$PROJECT_DIR$/springcloudeureka/springcloudeureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloudeurekaclient/springcloudeurekaclient.iml" filepath="$PROJECT_DIR$/springcloudeurekaclient/springcloudeurekaclient.iml" />
     </modules>
   </component>
 </project>

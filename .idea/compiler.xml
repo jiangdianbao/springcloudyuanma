@@ -6,11 +6,21 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="springcloudeurekaclient" />
         <module name="springcloudeureka" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="springcloudeureka" target="1.5" />
+      <module name="springcloud-eureka-client" target="1.8" />
+      <module name="springcloudeureka" target="1.7" />
+      <module name="springcloudeurekaclient" target="1.8" />
     </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="springcloud-eureka-client" options="-parameters" />
+      <module name="springcloudeureka" options="-parameters" />
+      <module name="springcloudeurekaclient" options="-parameters" />
+    </option>
   </component>
 </project>

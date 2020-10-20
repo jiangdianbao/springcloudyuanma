@@ -2,12 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="436573ed-9f00-4382-a83f-720ae2a5a17e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/springcloudeureka/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloudeureka/src/main/java/org/jdb/springcloud/EurekaApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloudeureka/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloudeurekaclient/src/main/java/com/jdb/springcloud/springcloudeurekaclient/controller/MyController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloudeureka/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springcloudeureka/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloudeureka/src/main/java/org/jdb/springcloud/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloudeureka/src/test/java/org/jdb/springcloud/AppTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -28,14 +40,70 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/springcloudeurekaclient" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.completion" />
+  </component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RunManager" selected="Spring Boot.SpringcloudeurekaclientApplication">
+    <configuration name="EurekaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="springcloudeureka" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.jdb.springcloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.jdb.springcloud.EurekaApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringcloudEurekaClientApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="springcloud-eureka-client" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jdb.springcloud.springcloudeurekaclient.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.jdb.springcloud.springcloudeurekaclient.SpringcloudEurekaClientApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringcloudEurekaClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springcloudeurekaclient" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.jdb.springcloud.springcloudeurekaclient.SpringcloudEurekaClientApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringcloudeurekaclientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springcloudeurekaclient" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.jdb.springcloud.springcloudeurekaclient.SpringcloudeurekaclientApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.SpringcloudEurekaClientApplication (1)" />
+        <item itemvalue="Spring Boot.EurekaApplication" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -47,29 +115,84 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1603196949272</updated>
-      <workItem from="1603196951349" duration="345000" />
+      <workItem from="1603196951349" duration="3712000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="false" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="462" y="129" key="#Project_Structure" timestamp="1603196953910">
       <screen x="0" y="0" width="1739" height="939" />
     </state>
     <state x="462" y="129" key="#Project_Structure/0.0.1739.939@0.0.1739.939" timestamp="1603196953910" />
-    <state x="650" y="225" key="FileChooserDialogImpl" timestamp="1603197244782">
+    <state x="650" y="225" key="FileChooserDialogImpl" timestamp="1603199493549">
       <screen x="0" y="0" width="1739" height="939" />
     </state>
-    <state x="650" y="225" key="FileChooserDialogImpl/0.0.1739.939@0.0.1739.939" timestamp="1603197244782" />
-    <state x="371" y="113" key="SettingsEditor" timestamp="1603196968173">
+    <state x="650" y="225" key="FileChooserDialogImpl/0.0.1739.939@0.0.1739.939" timestamp="1603199493549" />
+    <state width="1696" height="272" key="GridCell.Tab.0.bottom" timestamp="1603200700314">
       <screen x="0" y="0" width="1739" height="939" />
     </state>
-    <state x="371" y="113" key="SettingsEditor/0.0.1739.939@0.0.1739.939" timestamp="1603196968173" />
-    <state x="238" y="91" key="new project wizard" timestamp="1603197272396">
+    <state width="1696" height="272" key="GridCell.Tab.0.bottom/0.0.1739.939@0.0.1739.939" timestamp="1603200700314" />
+    <state width="1696" height="272" key="GridCell.Tab.0.center" timestamp="1603200700314">
       <screen x="0" y="0" width="1739" height="939" />
     </state>
-    <state x="238" y="91" key="new project wizard/0.0.1739.939@0.0.1739.939" timestamp="1603197272396" />
+    <state width="1696" height="272" key="GridCell.Tab.0.center/0.0.1739.939@0.0.1739.939" timestamp="1603200700314" />
+    <state width="1696" height="272" key="GridCell.Tab.0.left" timestamp="1603200700314">
+      <screen x="0" y="0" width="1739" height="939" />
+    </state>
+    <state width="1696" height="272" key="GridCell.Tab.0.left/0.0.1739.939@0.0.1739.939" timestamp="1603200700314" />
+    <state width="1696" height="272" key="GridCell.Tab.0.right" timestamp="1603200700314">
+      <screen x="0" y="0" width="1739" height="939" />
+    </state>
+    <state width="1696" height="272" key="GridCell.Tab.0.right/0.0.1739.939@0.0.1739.939" timestamp="1603200700314" />
+    <state width="1696" height="272" key="GridCell.Tab.1.bottom" timestamp="1603200700041">
+      <screen x="0" y="0" width="1739" height="939" />
+    </state>
+    <state width="1696" height="272" key="GridCell.Tab.1.bottom/0.0.1739.939@0.0.1739.939" timestamp="1603200700041" />
+    <state width="1696" height="272" key="GridCell.Tab.1.center" timestamp="1603200700041">
+      <screen x="0" y="0" width="1739" height="939" />
+    </state>
+    <state width="1696" height="272" key="GridCell.Tab.1.center/0.0.1739.939@0.0.1739.939" timestamp="1603200700041" />
+    <state width="1696" height="272" key="GridCell.Tab.1.left" timestamp="1603200700041">
+      <screen x="0" y="0" width="1739" height="939" />
+    </state>
+    <state width="1696" height="272" key="GridCell.Tab.1.left/0.0.1739.939@0.0.1739.939" timestamp="1603200700041" />
+    <state width="1696" height="272" key="GridCell.Tab.1.right" timestamp="1603200700041">
+      <screen x="0" y="0" width="1739" height="939" />
+    </state>
+    <state width="1696" height="272" key="GridCell.Tab.1.right/0.0.1739.939@0.0.1739.939" timestamp="1603200700041" />
+    <state width="1696" height="272" key="GridCell.Tab.2.bottom" timestamp="1603200700041">
+      <screen x="0" y="0" width="1739" height="939" />
+    </state>
+    <state width="1696" height="272" key="GridCell.Tab.2.bottom/0.0.1739.939@0.0.1739.939" timestamp="1603200700041" />
+    <state width="1696" height="272" key="GridCell.Tab.2.center" timestamp="1603200700041">
+      <screen x="0" y="0" width="1739" height="939" />
+    </state>
+    <state width="1696" height="272" key="GridCell.Tab.2.center/0.0.1739.939@0.0.1739.939" timestamp="1603200700041" />
+    <state width="1696" height="272" key="GridCell.Tab.2.left" timestamp="1603200700041">
+      <screen x="0" y="0" width="1739" height="939" />
+    </state>
+    <state width="1696" height="272" key="GridCell.Tab.2.left/0.0.1739.939@0.0.1739.939" timestamp="1603200700041" />
+    <state width="1696" height="272" key="GridCell.Tab.2.right" timestamp="1603200700041">
+      <screen x="0" y="0" width="1739" height="939" />
+    </state>
+    <state width="1696" height="272" key="GridCell.Tab.2.right/0.0.1739.939@0.0.1739.939" timestamp="1603200700041" />
+    <state x="524" y="169" key="NewModule_or_Project.wizard" timestamp="1603199496524">
+      <screen x="0" y="0" width="1739" height="939" />
+    </state>
+    <state x="524" y="169" key="NewModule_or_Project.wizard/0.0.1739.939@0.0.1739.939" timestamp="1603199496524" />
+    <state x="371" y="113" key="SettingsEditor" timestamp="1603198555272">
+      <screen x="0" y="0" width="1739" height="939" />
+    </state>
+    <state x="371" y="113" key="SettingsEditor/0.0.1739.939@0.0.1739.939" timestamp="1603198555272" />
+    <state x="238" y="91" key="new project wizard" timestamp="1603199998761">
+      <screen x="0" y="0" width="1739" height="939" />
+    </state>
+    <state x="238" y="91" key="new project wizard/0.0.1739.939@0.0.1739.939" timestamp="1603199998761" />
   </component>
 </project>
