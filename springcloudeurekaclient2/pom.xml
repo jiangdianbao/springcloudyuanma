@@ -9,11 +9,11 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.jdb.springcloud</groupId>
-    <artifactId>springcloudeurekaclient</artifactId>
+    <artifactId>springcloudeurekaclient2</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>springcloudeurekaclient</name>
+    <name>springcloudeurekaclient2</name>
     <description>Demo project for Spring Boot</description>
-    <packaging>jar</packaging>
+     <packaging>jar</packaging>
     <properties>
         <java.version>1.8</java.version>
         <spring-cloud.version>Hoxton.SR1</spring-cloud.version>
