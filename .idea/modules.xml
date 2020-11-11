@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/hystrixdashborad/hystrixdashborad.iml" filepath="$PROJECT_DIR$/hystrixdashborad/hystrixdashborad.iml" />
       <module fileurl="file://$PROJECT_DIR$/springcloudeureka/springcloudeureka.iml" filepath="$PROJECT_DIR$/springcloudeureka/springcloudeureka.iml" />
       <module fileurl="file://$PROJECT_DIR$/springcloudeurekaclient/springcloudeurekaclient.iml" filepath="$PROJECT_DIR$/springcloudeurekaclient/springcloudeurekaclient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloudeurekaclient2/springcloudeurekaclient2.iml" filepath="$PROJECT_DIR$/springcloudeurekaclient2/springcloudeurekaclient2.iml" />
     </modules>
   </component>
 </project>
